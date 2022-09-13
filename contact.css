@@ -1,72 +1,71 @@
-section{
-		
-			text-align: center;
-		}
-		.whitetext{
-			color: white;
-		}
-		a:hover{
-			color: black;
-		}
-		h1{
-		color: black;	
-		}
-		h2{
-			color: white;
-		}
-		h3{
-			color: black;
-		}
-		h4{
-			font-size: 100%;
-			font-weight: bold;
-		}
-		input{
-			height: 40px;
-			width: 30%;
-			outline: none;
-    		border: none;
-		}
-		button.sec{
-			height: 42px;
-			width: 100px;
-			color: #e91e63;
-			background-color: white;
-			font-size: 160%;
-			cursor: pointer;
-		}
-		a.icon{
-			text-decoration: none;
-			font-size: 180%;
-			color: #e91e63;
-		}
-		a.ico{
-			text-decoration: none;
-			font-size: 180%;
-			color: black;
-		}
-		a{
-			text-decoration: none;
-			font-size: 100%;
-			color: #e91e63;
-		}
-		.innertext{
-			color: white;
-			font-weight: bolder;
-		}
-		@media screen and (max-width: 950px) {
-			button.sec{
-			height: 47px;
-			width: 100px;
-			color: #e91e63;
-			background-color: white;
-			font-size: 160%;
-			cursor: pointer;
-		}
-		input{
-			height: 35px;
-			width: 50%;
-			outline: none;
-    		border: none;
-		}
-		}
+section {
+  text-align: center;
+}
+.whitetext {
+  color: white;
+}
+a:hover {
+  color: black;
+}
+h1 {
+  color: black;
+}
+h2 {
+  color: white;
+}
+h3 {
+  color: black;
+}
+h4 {
+  font-size: 100%;
+  font-weight: bold;
+}
+input {
+  height: 40px;
+  width: 30%;
+  outline: none;
+  border: none;
+}
+button.sec {
+  height: 42px;
+  width: 100px;
+  color: #e91e63;
+  background-color: white;
+  font-size: 160%;
+  cursor: pointer;
+}
+a.icon {
+  text-decoration: none;
+  font-size: 180%;
+  color: #e91e63;
+}
+a.ico {
+  text-decoration: none;
+  font-size: 180%;
+  color: black;
+}
+a {
+  text-decoration: none;
+  font-size: 100%;
+  color: #e91e63;
+}
+.innertext {
+  color: white;
+  font-weight: bolder;
+}
+@media screen and (max-width: 950px) {
+  button.sec {
+    height: 47px;
+    width: 100px;
+    color: #e91e63;
+    background-color: white;
+    font-size: 160%;
+    cursor: pointer;
+  }
+  input {
+    height: 35px;
+    width: 50%;
+    outline: none;
+    border: none;
+  }
+}
